@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D003C7B1FAFDF7F0057E671 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D003C7A1FAFDF7F0057E671 /* User.swift */; };
+		5D0567F51FACF16700369F5A /* vehicleClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0567F41FACF16700369F5A /* vehicleClass.swift */; };
+		5D0A74311FB4A5EC008EB1D3 /* VehicleStatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0A74301FB4A5EC008EB1D3 /* VehicleStatsViewController.swift */; };
+		5D0A74331FB4B68E008EB1D3 /* VehicleStatsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0A74321FB4B68E008EB1D3 /* VehicleStatsCell.swift */; };
+		5D0A74351FB4D79B008EB1D3 /* CustomVehicleStatsHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D0A74341FB4D79B008EB1D3 /* CustomVehicleStatsHeader.xib */; };
+		5D0A74371FB4D7D2008EB1D3 /* CustomVehicleStatsHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0A74361FB4D7D2008EB1D3 /* CustomVehicleStatsHeader.swift */; };
+		5D1031561FBCE46700A37512 /* vehicleEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1031551FBCE46700A37512 /* vehicleEditViewController.swift */; };
+		5D33F9281FB2A14200189BD2 /* VehiclesTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D33F9271FB2A14200189BD2 /* VehiclesTableView.swift */; };
+		5D3C278D1FBACED70025D3EE /* LocalGasSations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3C278C1FBACED70025D3EE /* LocalGasSations.swift */; };
+		5D3C278F1FBAD23D0025D3EE /* NearByGasStations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3C278E1FBAD23D0025D3EE /* NearByGasStations.swift */; };
+		5D3C27911FBAE4DC0025D3EE /* MapPins.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3C27901FBAE4DC0025D3EE /* MapPins.swift */; };
+		5D3EED941FAC07B1004C1060 /* LoginStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D3EED931FAC07B1004C1060 /* LoginStoryBoard.storyboard */; };
+		5D3EED961FAC09F5004C1060 /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3EED951FAC09F5004C1060 /* LogInView.swift */; };
+		5D3EED981FAC0A08004C1060 /* CreateNewUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3EED971FAC0A08004C1060 /* CreateNewUserView.swift */; };
+		5D3EED9A1FAC0A28004C1060 /* AddVehicleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3EED991FAC0A28004C1060 /* AddVehicleView.swift */; };
+		5D3EED9C1FAC0A6A004C1060 /* AddGasManualView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3EED9B1FAC0A6A004C1060 /* AddGasManualView.swift */; };
+		5D59D2B11FB79499001001A0 /* ViewController_ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D59D2B01FB79499001001A0 /* ViewController_ext.swift */; };
+		5D65E9781F9D37DD00801EEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D65E9771F9D37DD00801EEF /* AppDelegate.swift */; };
+		5D65E97A1F9D37DD00801EEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D65E9791F9D37DD00801EEF /* ViewController.swift */; };
+		5D65E97D1F9D37DD00801EEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D65E97B1F9D37DD00801EEF /* Main.storyboard */; };
+		5D65E9801F9D37DD00801EEF /* GasLogApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5D65E97E1F9D37DD00801EEF /* GasLogApp.xcdatamodeld */; };
+		5D65E9821F9D37DD00801EEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D65E9811F9D37DD00801EEF /* Assets.xcassets */; };
+		5D65E9851F9D37DD00801EEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D65E9831F9D37DD00801EEF /* LaunchScreen.storyboard */; };
+		5D7AFDF21FAC1710001DBA43 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5D920A4A1FABEEE100C64475 /* GoogleService-Info.plist */; };
+		5DB56B991FBD42CD00A84EE5 /* fillupDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB56B981FBD42CD00A84EE5 /* fillupDetailsViewController.swift */; };
+		5DBA3CD71FBDA34C000A953B /* GRPCClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DBA3CD81FBDA34C000A953B /* GRPCClient.framework */; };
+		5DBA3CD91FBDA35A000A953B /* grpc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DBA3CDA1FBDA35A000A953B /* grpc.framework */; };
+		5DBA3CDC1FBDA363000A953B /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DBA3CDB1FBDA363000A953B /* CoreMotion.framework */; };
+		5DBA3CDD1FBDA37E000A953B /* RxLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DBA3CDE1FBDA37E000A953B /* RxLibrary.framework */; };
+		5DD680FF1FBE904A00A101F7 /* DeletedVehicles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD680FE1FBE904A00A101F7 /* DeletedVehicles.swift */; };
+		5DD681061FBE92FC00A101F7 /* DeletedVehicleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD681051FBE92FC00A101F7 /* DeletedVehicleCell.swift */; };
+		5DD681081FBE9F3A00A101F7 /* CustomDeletedHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DD681071FBE9F3A00A101F7 /* CustomDeletedHeader.xib */; };
+		5DD6810A1FBE9F5000A101F7 /* CustomDeletedHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD681091FBE9F5000A101F7 /* CustomDeletedHeader.swift */; };
+		5DFC6E881FB2A24F003C5719 /* vehicleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFC6E871FB2A24F003C5719 /* vehicleTableViewCell.swift */; };
+		9009BD56C161EF158FC86ED8 /* Pods_GasLogApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCEE03E76BC79FDC3BAEE70E /* Pods_GasLogApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5D003C7A1FAFDF7F0057E671 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		5D0567F41FACF16700369F5A /* vehicleClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vehicleClass.swift; sourceTree = "<group>"; };
+		5D0A74301FB4A5EC008EB1D3 /* VehicleStatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleStatsViewController.swift; sourceTree = "<group>"; };
+		5D0A74321FB4B68E008EB1D3 /* VehicleStatsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleStatsCell.swift; sourceTree = "<group>"; };
+		5D0A74341FB4D79B008EB1D3 /* CustomVehicleStatsHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomVehicleStatsHeader.xib; sourceTree = "<group>"; };
+		5D0A74361FB4D7D2008EB1D3 /* CustomVehicleStatsHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomVehicleStatsHeader.swift; sourceTree = "<group>"; };
+		5D1031551FBCE46700A37512 /* vehicleEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vehicleEditViewController.swift; sourceTree = "<group>"; };
+		5D33F9271FB2A14200189BD2 /* VehiclesTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehiclesTableView.swift; sourceTree = "<group>"; };
+		5D3C278C1FBACED70025D3EE /* LocalGasSations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalGasSations.swift; sourceTree = "<group>"; };
+		5D3C278E1FBAD23D0025D3EE /* NearByGasStations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearByGasStations.swift; sourceTree = "<group>"; };
+		5D3C27901FBAE4DC0025D3EE /* MapPins.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPins.swift; sourceTree = "<group>"; };
+		5D3EED931FAC07B1004C1060 /* LoginStoryBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginStoryBoard.storyboard; sourceTree = "<group>"; };
+		5D3EED951FAC09F5004C1060 /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
+		5D3EED971FAC0A08004C1060 /* CreateNewUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewUserView.swift; sourceTree = "<group>"; };
+		5D3EED991FAC0A28004C1060 /* AddVehicleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddVehicleView.swift; sourceTree = "<group>"; };
+		5D3EED9B1FAC0A6A004C1060 /* AddGasManualView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGasManualView.swift; sourceTree = "<group>"; };
+		5D59D2B01FB79499001001A0 /* ViewController_ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController_ext.swift; sourceTree = "<group>"; };
+		5D65E9741F9D37DD00801EEF /* GasLogApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GasLogApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D65E9771F9D37DD00801EEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5D65E9791F9D37DD00801EEF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5D65E97C1F9D37DD00801EEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5D65E97F1F9D37DD00801EEF /* GasLogApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GasLogApp.xcdatamodel; sourceTree = "<group>"; };
+		5D65E9811F9D37DD00801EEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D65E9841F9D37DD00801EEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5D65E9861F9D37DD00801EEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D920A4A1FABEEE100C64475 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5DB56B981FBD42CD00A84EE5 /* fillupDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fillupDetailsViewController.swift; sourceTree = "<group>"; };
+		5DBA3CD81FBDA34C000A953B /* GRPCClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GRPCClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DBA3CDA1FBDA35A000A953B /* grpc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = grpc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DBA3CDB1FBDA363000A953B /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		5DBA3CDE1FBDA37E000A953B /* RxLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DD680FE1FBE904A00A101F7 /* DeletedVehicles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeletedVehicles.swift; sourceTree = "<group>"; };
+		5DD681051FBE92FC00A101F7 /* DeletedVehicleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeletedVehicleCell.swift; sourceTree = "<group>"; };
+		5DD681071FBE9F3A00A101F7 /* CustomDeletedHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomDeletedHeader.xib; sourceTree = "<group>"; };
+		5DD681091FBE9F5000A101F7 /* CustomDeletedHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDeletedHeader.swift; sourceTree = "<group>"; };
+		5DFC6E871FB2A24F003C5719 /* vehicleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vehicleTableViewCell.swift; sourceTree = "<group>"; };
+		9BAAB32B78FE43983D116A72 /* Pods-GasLogApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GasLogApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-GasLogApp/Pods-GasLogApp.release.xcconfig"; sourceTree = "<group>"; };
+		CCEE03E76BC79FDC3BAEE70E /* Pods_GasLogApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GasLogApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE12E20A958E2303AD142131 /* Pods-GasLogApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GasLogApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GasLogApp/Pods-GasLogApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D65E9711F9D37DD00801EEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DBA3CDD1FBDA37E000A953B /* RxLibrary.framework in Frameworks */,
+				5DBA3CDC1FBDA363000A953B /* CoreMotion.framework in Frameworks */,
+				5DBA3CD91FBDA35A000A953B /* grpc.framework in Frameworks */,
+				5DBA3CD71FBDA34C000A953B /* GRPCClient.framework in Frameworks */,
+				9009BD56C161EF158FC86ED8 /* Pods_GasLogApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D003C7C1FB033360057E671 /* UserCreation */ = {
+			isa = PBXGroup;
+			children = (
+				5D003C7A1FAFDF7F0057E671 /* User.swift */,
+				5D3EED971FAC0A08004C1060 /* CreateNewUserView.swift */,
+			);
+			path = UserCreation;
+			sourceTree = "<group>";
+		};
+		5D0A74381FB4DEDE008EB1D3 /* CustomHeader */ = {
+			isa = PBXGroup;
+			children = (
+				5DD681031FBE91B100A101F7 /* CustomDeletedVehicleHeader */,
+				5DD681041FBE91C500A101F7 /* CustomStatsHeader */,
+			);
+			path = CustomHeader;
+			sourceTree = "<group>";
+		};
+		5D0A74391FB4DEEC008EB1D3 /* VehicleStats */ = {
+			isa = PBXGroup;
+			children = (
+				5D0A74301FB4A5EC008EB1D3 /* VehicleStatsViewController.swift */,
+				5D0A74321FB4B68E008EB1D3 /* VehicleStatsCell.swift */,
+			);
+			path = VehicleStats;
+			sourceTree = "<group>";
+		};
+		5D0A743A1FB4DEFD008EB1D3 /* VehicleList */ = {
+			isa = PBXGroup;
+			children = (
+				5D1031551FBCE46700A37512 /* vehicleEditViewController.swift */,
+				5DFC6E871FB2A24F003C5719 /* vehicleTableViewCell.swift */,
+				5D33F9271FB2A14200189BD2 /* VehiclesTableView.swift */,
+			);
+			path = VehicleList;
+			sourceTree = "<group>";
+		};
+		5D33F9291FB2A16000189BD2 /* LogIn */ = {
+			isa = PBXGroup;
+			children = (
+				5D3EED931FAC07B1004C1060 /* LoginStoryBoard.storyboard */,
+				5D3EED951FAC09F5004C1060 /* LogInView.swift */,
+			);
+			path = LogIn;
+			sourceTree = "<group>";
+		};
+		5D3C278B1FBACEAE0025D3EE /* VehicleInfomation */ = {
+			isa = PBXGroup;
+			children = (
+				5D3EED991FAC0A28004C1060 /* AddVehicleView.swift */,
+				5D0567F41FACF16700369F5A /* vehicleClass.swift */,
+				5DD680FE1FBE904A00A101F7 /* DeletedVehicles.swift */,
+				5D3EED9B1FAC0A6A004C1060 /* AddGasManualView.swift */,
+			);
+			path = VehicleInfomation;
+			sourceTree = "<group>";
+		};
+		5D65E96B1F9D37DD00801EEF = {
+			isa = PBXGroup;
+			children = (
+				5D65E9761F9D37DD00801EEF /* GasLogApp */,
+				5D65E9751F9D37DD00801EEF /* Products */,
+				D82AA216E0CAEA4D5BF0D2A4 /* Pods */,
+				B0E0E114DAB1F4B48FCEF295 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5D65E9751F9D37DD00801EEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D65E9741F9D37DD00801EEF /* GasLogApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D65E9761F9D37DD00801EEF /* GasLogApp */ = {
+			isa = PBXGroup;
+			children = (
+				5D65E9771F9D37DD00801EEF /* AppDelegate.swift */,
+				5D65E9791F9D37DD00801EEF /* ViewController.swift */,
+				5D59D2B01FB79499001001A0 /* ViewController_ext.swift */,
+				5D3C27901FBAE4DC0025D3EE /* MapPins.swift */,
+				5D3C278C1FBACED70025D3EE /* LocalGasSations.swift */,
+				5D3C278E1FBAD23D0025D3EE /* NearByGasStations.swift */,
+				5D65E97B1F9D37DD00801EEF /* Main.storyboard */,
+				5DD681051FBE92FC00A101F7 /* DeletedVehicleCell.swift */,
+				5DB56B981FBD42CD00A84EE5 /* fillupDetailsViewController.swift */,
+				5D3C278B1FBACEAE0025D3EE /* VehicleInfomation */,
+				5D0A74391FB4DEEC008EB1D3 /* VehicleStats */,
+				5D0A743A1FB4DEFD008EB1D3 /* VehicleList */,
+				5D0A74381FB4DEDE008EB1D3 /* CustomHeader */,
+				5D33F9291FB2A16000189BD2 /* LogIn */,
+				5D003C7C1FB033360057E671 /* UserCreation */,
+				5D65E9811F9D37DD00801EEF /* Assets.xcassets */,
+				5D65E9831F9D37DD00801EEF /* LaunchScreen.storyboard */,
+				5D65E9861F9D37DD00801EEF /* Info.plist */,
+				5D65E97E1F9D37DD00801EEF /* GasLogApp.xcdatamodeld */,
+				5D920A4A1FABEEE100C64475 /* GoogleService-Info.plist */,
+			);
+			path = GasLogApp;
+			sourceTree = "<group>";
+		};
+		5DD681031FBE91B100A101F7 /* CustomDeletedVehicleHeader */ = {
+			isa = PBXGroup;
+			children = (
+				5DD681071FBE9F3A00A101F7 /* CustomDeletedHeader.xib */,
+				5DD681091FBE9F5000A101F7 /* CustomDeletedHeader.swift */,
+			);
+			path = CustomDeletedVehicleHeader;
+			sourceTree = "<group>";
+		};
+		5DD681041FBE91C500A101F7 /* CustomStatsHeader */ = {
+			isa = PBXGroup;
+			children = (
+				5D0A74341FB4D79B008EB1D3 /* CustomVehicleStatsHeader.xib */,
+				5D0A74361FB4D7D2008EB1D3 /* CustomVehicleStatsHeader.swift */,
+			);
+			path = CustomStatsHeader;
+			sourceTree = "<group>";
+		};
+		B0E0E114DAB1F4B48FCEF295 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5DBA3CDE1FBDA37E000A953B /* RxLibrary.framework */,
+				5DBA3CDB1FBDA363000A953B /* CoreMotion.framework */,
+				5DBA3CDA1FBDA35A000A953B /* grpc.framework */,
+				5DBA3CD81FBDA34C000A953B /* GRPCClient.framework */,
+				CCEE03E76BC79FDC3BAEE70E /* Pods_GasLogApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D82AA216E0CAEA4D5BF0D2A4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DE12E20A958E2303AD142131 /* Pods-GasLogApp.debug.xcconfig */,
+				9BAAB32B78FE43983D116A72 /* Pods-GasLogApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D65E9731F9D37DD00801EEF /* GasLogApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D65E9891F9D37DD00801EEF /* Build configuration list for PBXNativeTarget "GasLogApp" */;
+			buildPhases = (
+				7263EA013AFCC2ACF29921C4 /* [CP] Check Pods Manifest.lock */,
+				5D65E9701F9D37DD00801EEF /* Sources */,
+				5D65E9711F9D37DD00801EEF /* Frameworks */,
+				5D65E9721F9D37DD00801EEF /* Resources */,
+				30978B56EDDF1D424D87C34C /* [CP] Embed Pods Frameworks */,
+				2A75EB4D71AC627B2200C5F1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GasLogApp;
+			productName = GasLogApp;
+			productReference = 5D65E9741F9D37DD00801EEF /* GasLogApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D65E96C1F9D37DD00801EEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Eric Barber";
+				TargetAttributes = {
+					5D65E9731F9D37DD00801EEF = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5D65E96F1F9D37DD00801EEF /* Build configuration list for PBXProject "GasLogApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5D65E96B1F9D37DD00801EEF;
+			productRefGroup = 5D65E9751F9D37DD00801EEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D65E9731F9D37DD00801EEF /* GasLogApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D65E9721F9D37DD00801EEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D65E9851F9D37DD00801EEF /* LaunchScreen.storyboard in Resources */,
+				5D65E9821F9D37DD00801EEF /* Assets.xcassets in Resources */,
+				5DD681081FBE9F3A00A101F7 /* CustomDeletedHeader.xib in Resources */,
+				5D0A74351FB4D79B008EB1D3 /* CustomVehicleStatsHeader.xib in Resources */,
+				5D7AFDF21FAC1710001DBA43 /* GoogleService-Info.plist in Resources */,
+				5D65E97D1F9D37DD00801EEF /* Main.storyboard in Resources */,
+				5D3EED941FAC07B1004C1060 /* LoginStoryBoard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A75EB4D71AC627B2200C5F1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GasLogApp/Pods-GasLogApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		30978B56EDDF1D424D87C34C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GasLogApp/Pods-GasLogApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GasLogApp/Pods-GasLogApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7263EA013AFCC2ACF29921C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GasLogApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D65E9701F9D37DD00801EEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D0A74311FB4A5EC008EB1D3 /* VehicleStatsViewController.swift in Sources */,
+				5D3EED981FAC0A08004C1060 /* CreateNewUserView.swift in Sources */,
+				5DD680FF1FBE904A00A101F7 /* DeletedVehicles.swift in Sources */,
+				5D65E97A1F9D37DD00801EEF /* ViewController.swift in Sources */,
+				5D3EED9C1FAC0A6A004C1060 /* AddGasManualView.swift in Sources */,
+				5D0567F51FACF16700369F5A /* vehicleClass.swift in Sources */,
+				5D65E9801F9D37DD00801EEF /* GasLogApp.xcdatamodeld in Sources */,
+				5D3EED961FAC09F5004C1060 /* LogInView.swift in Sources */,
+				5DB56B991FBD42CD00A84EE5 /* fillupDetailsViewController.swift in Sources */,
+				5D3C278D1FBACED70025D3EE /* LocalGasSations.swift in Sources */,
+				5D59D2B11FB79499001001A0 /* ViewController_ext.swift in Sources */,
+				5D65E9781F9D37DD00801EEF /* AppDelegate.swift in Sources */,
+				5DFC6E881FB2A24F003C5719 /* vehicleTableViewCell.swift in Sources */,
+				5D1031561FBCE46700A37512 /* vehicleEditViewController.swift in Sources */,
+				5DD6810A1FBE9F5000A101F7 /* CustomDeletedHeader.swift in Sources */,
+				5D003C7B1FAFDF7F0057E671 /* User.swift in Sources */,
+				5D3C27911FBAE4DC0025D3EE /* MapPins.swift in Sources */,
+				5D3EED9A1FAC0A28004C1060 /* AddVehicleView.swift in Sources */,
+				5D0A74331FB4B68E008EB1D3 /* VehicleStatsCell.swift in Sources */,
+				5D3C278F1FBAD23D0025D3EE /* NearByGasStations.swift in Sources */,
+				5D0A74371FB4D7D2008EB1D3 /* CustomVehicleStatsHeader.swift in Sources */,
+				5D33F9281FB2A14200189BD2 /* VehiclesTableView.swift in Sources */,
+				5DD681061FBE92FC00A101F7 /* DeletedVehicleCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5D65E97B1F9D37DD00801EEF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D65E97C1F9D37DD00801EEF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5D65E9831F9D37DD00801EEF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D65E9841F9D37DD00801EEF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5D65E9871F9D37DD00801EEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5D65E9881F9D37DD00801EEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D65E98A1F9D37DD00801EEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE12E20A958E2303AD142131 /* Pods-GasLogApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2WA5L94UM9;
+				ENABLE_BITCODE = YES;
+				INFOPLIST_FILE = GasLogApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BarberEric.GasLogApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5D65E98B1F9D37DD00801EEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BAAB32B78FE43983D116A72 /* Pods-GasLogApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2WA5L94UM9;
+				ENABLE_BITCODE = YES;
+				INFOPLIST_FILE = GasLogApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BarberEric.GasLogApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D65E96F1F9D37DD00801EEF /* Build configuration list for PBXProject "GasLogApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D65E9871F9D37DD00801EEF /* Debug */,
+				5D65E9881F9D37DD00801EEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D65E9891F9D37DD00801EEF /* Build configuration list for PBXNativeTarget "GasLogApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D65E98A1F9D37DD00801EEF /* Debug */,
+				5D65E98B1F9D37DD00801EEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5D65E97E1F9D37DD00801EEF /* GasLogApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5D65E97F1F9D37DD00801EEF /* GasLogApp.xcdatamodel */,
+			);
+			currentVersion = 5D65E97F1F9D37DD00801EEF /* GasLogApp.xcdatamodel */;
+			path = GasLogApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5D65E96C1F9D37DD00801EEF /* Project object */;
+}

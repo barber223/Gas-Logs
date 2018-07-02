@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CustomHeaderVehicleStats" customModule="GasLogApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="40"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mp3-Rj-aD2">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="40"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AvgMpg: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="awh-KK-7t3">
+                            <rect key="frame" x="0.0" y="0.0" width="187.5" height="40"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="1" green="0.95268636939999995" blue="0.68818396329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AvgMpg: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NSV-De-JDp">
+                            <rect key="frame" x="187.5" y="0.0" width="187.5" height="40"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="1" green="0.95268636939999995" blue="0.68818396329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.070129238070000002" green="0.20845288040000001" blue="0.35791146759999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="NSV-De-JDp" firstAttribute="leading" secondItem="awh-KK-7t3" secondAttribute="trailing" id="Evw-5O-dQY"/>
+                        <constraint firstAttribute="trailing" secondItem="NSV-De-JDp" secondAttribute="trailing" id="Nww-h8-77Z"/>
+                        <constraint firstAttribute="bottom" secondItem="NSV-De-JDp" secondAttribute="bottom" id="Y7d-J9-Oqp"/>
+                        <constraint firstItem="awh-KK-7t3" firstAttribute="leading" secondItem="mp3-Rj-aD2" secondAttribute="leading" id="fC4-dn-Efk"/>
+                        <constraint firstItem="awh-KK-7t3" firstAttribute="top" secondItem="mp3-Rj-aD2" secondAttribute="top" id="oYO-m4-5aR"/>
+                        <constraint firstItem="awh-KK-7t3" firstAttribute="width" secondItem="mp3-Rj-aD2" secondAttribute="width" multiplier="0.5" id="qsP-4q-FX3"/>
+                        <constraint firstItem="NSV-De-JDp" firstAttribute="top" secondItem="mp3-Rj-aD2" secondAttribute="top" id="vel-MI-OlX"/>
+                        <constraint firstAttribute="bottom" secondItem="awh-KK-7t3" secondAttribute="bottom" id="ybp-NT-nnx"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="mp3-Rj-aD2" secondAttribute="trailing" id="R9P-nF-d9L"/>
+                <constraint firstItem="mp3-Rj-aD2" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="Szs-iS-C7G"/>
+                <constraint firstItem="mp3-Rj-aD2" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="dA5-gB-YR6"/>
+                <constraint firstItem="mp3-Rj-aD2" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="tFA-ib-zql"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="averageMpgLabel" destination="awh-KK-7t3" id="0pg-vd-9MW"/>
+                <outlet property="totalCostLabel" destination="NSV-De-JDp" id="znM-65-aF3"/>
+            </connections>
+            <point key="canvasLocation" x="34.5" y="78"/>
+        </view>
+    </objects>
+</document>
